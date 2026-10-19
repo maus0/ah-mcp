@@ -155,6 +155,7 @@ func main() {
 	tools.RegisterOrderTools(s, deps)
 	tools.RegisterBasketTools(s, deps)
 	tools.RegisterMemberTools(s, deps)
+	tools.RegisterDeliveryTools(s, deps)
 	tools.RegisterInfoTool(s, deps)
 
 	ctx := context.Background()
